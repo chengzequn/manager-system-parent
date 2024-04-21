@@ -1,0 +1,27 @@
+### role:admin
+POST http://localhost:8080/admin/addUser
+Content-Type: application/json
+Authorization: eyJ1c2VySWQiOiAxMjM0NTYsImFjY291bnROYW1lIjogIlhYWFhYWFgiLCJyb2xlIjogImFkbWluIn0=
+
+{
+  "userId": 123456,
+  "endpoint": [
+    "resource A",
+    "resource B",
+    "resource D"
+  ]
+}
+
+#### role: user
+POST http://localhost:8080/admin/addUser
+Content-Type: application/json
+Authorization: eyJ1c2VySWQiOiAxMjM0NTYsImFjY291bnROYW1lIjogIlhYWFhYWFgiLCJyb2xlIjogInVzZXIifQ==
+
+{
+  "userId": 123456,
+  "endpoint": [
+    "resource A",
+    "resource B",
+    "resource D"
+  ]
+}

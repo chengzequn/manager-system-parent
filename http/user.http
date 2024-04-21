@@ -1,0 +1,7 @@
+## userId: 123456
+GET http://localhost:8080/user/resourceA
+Authorization: ewoidXNlcklkIjogMTIzNDU2LAoiYWNjb3VudE5hbWUiOiAiWFhYWFhYWCIsCiJyb2xlIjogImFkbWluIgp9
+
+### userId: 123457
+GET http://localhost:8080/user/resourceF
+Authorization: ewoidXNlcklkIjogMTIzNDU3LAoiYWNjb3VudE5hbWUiOiAiWFhYWFhYWCIsCiJyb2xlIjogImFkbWluIgp9
